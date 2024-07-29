@@ -1,0 +1,78 @@
+body {
+  background-image: url(../Images/background.jpg);
+  background-size: 100% 100vh;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.741);
+  background-repeat: no-repeat;
+}
+
+.conatainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  gap: 50px;
+  margin-left: 10%;
+}
+
+.txt-main {
+  color: white;
+  letter-spacing: 5px;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.card {
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  padding: 5%;
+  height: 350px;
+}
+
+.card-sub{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+#btn-click {
+  background-color: transparent;
+  border-width: 3px;
+  border-radius: 30px;
+  border-color: white;
+  border-style: solid;
+  width: 200px;
+  cursor: pointer;
+  color: white;
+  letter-spacing: 4px;
+  transition: all 500ms ease-in-out;
+  font-weight: bold;
+}
+
+#btn-click:hover{
+    background-color: white;
+    color: black;
+}
+
+.img-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.txt-title{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+p{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 10px;
+    text-align: right;
+    line-height: 20px;
+}
